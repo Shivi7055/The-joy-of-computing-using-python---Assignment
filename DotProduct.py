@@ -12,7 +12,7 @@ list1 = (input("Enter the list1"))
 for i in list1.split():
     num = int(i)
     l1.append(num) 
-list2 = (input("Enter the list2"))
+list2 = (input("Enter the list2")) 
 for i in list2.split():
     num = int(i)
     l2.append(num)
