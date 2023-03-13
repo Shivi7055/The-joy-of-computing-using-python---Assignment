@@ -1,3 +1,6 @@
+'''Given a matrix M write a function Transpose which accepts a matrix M and return the transpose of M.
+   Transpose of a matrix is a matrix in which each row is changed to a column or vice versa.'''
+
 def Transpose(M):
     # Initializing all elements of transpose matrix with 0 
     transpose = [[0 for i in range(len(M))]for i in range(len(M))]    
